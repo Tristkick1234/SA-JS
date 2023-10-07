@@ -1,0 +1,222 @@
+:root {
+    font-size: 16px;
+    box-sizing: border-box;
+    --primary: bisque;
+}
+
+@font-face {
+    font-family: Teko;
+
+    src: url("/fonts/static/Teko-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    font-family: Teko;
+
+}
+
+body {
+
+
+
+    background-image: url("/photos/denise-jans-do6-7KH6ppY-unsplash.jpg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+
+}
+
+header {
+    height: 10vh;
+    /*only thing needed adjusting*/
+    width: 100%;
+
+    background-color: var(--primary);
+
+
+}
+
+nav {
+    height: 100%;
+    width: 100%;
+
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo {
+    padding: 1rem;
+
+}
+
+.logo>img {
+    width: 15rem;
+
+}
+
+ul {
+
+    justify-content: right;
+    display: flex;
+
+    font-size: 3rem;
+    text-decoration: none;
+    list-style-type: none;
+    flex-direction: row;
+    padding: 3rem;
+}
+
+li {
+    padding-right: 20rem;
+    font-size: 5rem;
+
+}
+
+main {
+    height: 90vh;
+    /*background-image: url("/photos/denise-jans-do6-7KH6ppY-unsplash.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;*/
+
+
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+main>.blur {
+
+    z-index: -2;
+    width: 100%;
+    position: absolute;
+    opacity: 0.6;
+    filter: blur(8px);
+
+}
+
+/*main>.unblur{
+    height: 100%;
+    z-index:-1;
+    width:80%;
+    position: absolute;
+    opacity: 1;
+
+}*/
+
+
+.content {
+    height: 60%;
+    width: 60%;
+    border-radius: 3rem;
+    background-color: var(--primary);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    /*background-color: rgba(0,0,0,.5);*/
+
+
+
+}
+
+
+
+
+.section {
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.section>img {
+    width: 60%;
+    padding:3rem;
+    
+
+
+
+}
+
+.section2 {
+    width: 50%;
+    height: 100%;
+    font-size: 3rem;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    max-height: fit-content;
+
+
+}
+
+.amazon-button {
+
+    display: flex;
+
+    justify-content: center;
+    padding: 3rem;
+    background-color: rgb(206, 136, 52);
+    opacity: 0.9;
+    border-radius: 5px;
+
+    text-align: center;
+    width: 50%;
+
+
+
+}
+
+.amazon-button>a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+footer {
+    height: 10vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+
+
+footer>div {
+    color: white;
+    font-size: 4rem;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 50%;
+
+
+}
+
+.line {
+    width: 0.5rem;
+    height: 100%;
+
+    background-color: white;
+}
