@@ -1,0 +1,11 @@
+body{
+    background-image: none !important;
+}
+
+h2{
+    text-align: center;
+    position: relative;
+    top:40vh;
+    font-size: 4rem;
+
+}
