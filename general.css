@@ -2,6 +2,7 @@
     font-size: 16px;
     box-sizing: border-box;
     --primary: bisque;
+  
 }
 
 @font-face {
@@ -11,7 +12,7 @@
 }
 
 * {
-    margin: 0;
+ 
     font-family: Teko;
 
 }
@@ -23,6 +24,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    margin: 0 auto;
     
 
 
@@ -149,7 +151,7 @@ a{
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
     
     body {
       min-width: 100%;
@@ -164,7 +166,8 @@ a{
     main{
         display: flex;
         justify-content: center;
-      
+        height:100%;
+        width:100%;
     }
 
     .content{
@@ -175,6 +178,7 @@ a{
         
         flex-direction: column;
         justify-content: center;
+        border-radius: 0px;
     }
 
     .section{
@@ -188,11 +192,11 @@ a{
         height:100%;
         width:100%;
         font-size:1rem;
+        display:flex;
+        justify-content: center;
     }
 
-    .amazon-button{
-        width:100%;
-    }
+    
     footer{
         
         display:flex;
