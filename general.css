@@ -17,8 +17,7 @@
 }
 
 body {
-
-
+    
 
     background-image: url("/photos/denise-jans-do6-7KH6ppY-unsplash.jpg.png");
     background-repeat: no-repeat;
@@ -86,7 +85,7 @@ footer {
     height: 100%;
     margin: 0 auto;
     bottom:0;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -148,3 +147,56 @@ a{
     text-decoration: none;
    
 }
+
+
+@media screen and (max-width: 700px) {
+    
+    body {
+      min-width: 100%;
+      height: 100%;
+    }
+    li{
+        font-size: 1.5rem;
+        padding:.5rem;
+
+    }
+
+    main{
+        display: flex;
+        justify-content: center;
+      
+    }
+
+    .content{
+        height:100%;
+        width:100%;
+        
+        display:flex;
+        
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section{
+        height:100%;
+        width:100%;
+        display:flex;
+        justify-content: center;
+
+    }
+    .section2{
+        height:100%;
+        width:100%;
+        font-size:1rem;
+    }
+
+    .amazon-button{
+        width:100%;
+    }
+    footer{
+        
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }
