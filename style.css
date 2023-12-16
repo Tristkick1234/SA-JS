@@ -1,123 +1,105 @@
-main {
-    height: 90vh;
-    /*background-image: url("/photos/denise-jans-do6-7KH6ppY-unsplash.jpg");
-    
-    background-repeat: no-repeat;
+body{
+    background-image: url("/photos/janko-ferlic-sfL_QOnmy00-unsplash.jpg");
+    background-position: center;
     background-size: cover;
-    background-position:center;*/
 
+    background-repeat: no-repeat;
+}
+nav{
+    width: 100%;
+  
+    background-color: rgba(187, 161, 128, 0.432);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: fixed; */
+    
+}
 
+ul{
+    width: 80%;
+    list-style-type: none;
+    text-decoration: none;
 
     display: flex;
+    flex-direction: row;
+    align-items: center;
 
+    justify-content: space-between;
+
+}
+
+li{
+    padding:.5rem;
+}
+
+li>img{
+    width: 100%;
+
+}
+
+#logo{
+    width:6rem;
+  
+}
+
+#home-icon{
+    width:4rem;
+
+}
+
+main{
+    width:100%;
+    
+}
+
+
+#top{
+    display: flex;
     justify-content: center;
     align-items: center;
 
+    font-size: 6rem;
+
+    height:25vh;
+    
 }
 
-main>.blur {
-
-    z-index: -2;
-    width: 100%;
-    position: absolute;
-    opacity: 0.6;
-    filter: blur(8px);
-
-}
-
-/*main>.unblur{
-    height: 100%;
-    z-index:-1;
-    width:80%;
-    position: absolute;
-    opacity: 1;
-
-}*/
-
-
-.content {
-    height:fit-content;
+#top>h1{
+    height:100%;
     width: 60%;
-    border-radius: 3rem;
-    background-color: var(--primary);
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-
-    background-color: rgba(255,228,196,.7);
-
-    color:rgb(44, 29, 29);
-
-    padding:1rem;
-
-
-
-
-}
-
-
-
-
-.section {
-    height: 100%;
-    width: 50%;
-
-    display: flex;
-    justify-content: center;
-
-
-
-}
-
-.section>img {
-    width: 60%;
-    padding:1rem;
-    
-
-
-
-}
-
-.section2 {
-    width: 50%;
-   
-    font-size: 2rem;
-    
-    display: flex;
-    flex-direction: column;
-    
-    margin:0 auto;
-
-  
-
-
-}
-
-.qr{
-    max-width: 20%;
-}
-
-
-.amazon-button {
-
-    
-    padding: 1rem;
-    background-color: rgb(206, 136, 52);
-  
+    color: white;
+    background-color: rgba(0, 0, 0, 0.185);
     border-radius: 5px;
-
-    width: 50%;
-
-    max-height: max-content;
     text-align: center;
 
+    margin:1rem;
+}
+
+.container{
+
+    display: flex;
+    flex-direction: row;
+    height:75vh;
+    background-color:rgba(222, 184, 135, 0.863);
+    align-items: center;
+    justify-content: center;
+
+
+    padding-left:1rem;
+    padding-right:1rem;
+
+
 
 }
 
-.amazon-button>a {
-    text-decoration: none;
-    color: white;
+.container>*{
+  margin:5rem;
 }
 
+#inner-container{
 
-
+}
+#book>img{
+    width: 50%;
+}
